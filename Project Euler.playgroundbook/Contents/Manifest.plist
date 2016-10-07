@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Name</key>
+	<string>Project Euler</string>
+	<key>ContentIdentifier</key>
+	<string>com.jadosseiran.playgroundbook.projecteuler</string>
+	<key>ContentVersion</key>
+	<string>1</string>
+	<key>ImageReference</key>
+	<string>Icon.png</string>
+	<key>DeploymentTarget</key>
+	<string>ios10.0</string>
+	<key>Chapters</key>
+	<array>
+    <string>Introduction.playgroundchapter</string>
+		<string>Beginer.playgroundchapter</string>
+    <string>Intermediate.playgroundchapter</string>
+    <string>Expert.playgroundchapter</string>
+	</array>
+</dict>
+</plist>
