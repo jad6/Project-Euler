@@ -8,7 +8,7 @@ Each problem has its own page that you can solve using Swift. These pages are fo
   2. Intermediate - Difficulty levels between 26% and 50%
   3. Hard - Difficulty levels between 51% and 75%
   4. Expert - Difficulty levels above 76% 
- 
+
 This book is simply a way to relay the awesome problems that the website has available and to make it accessible to a wider audience. You can then enter the result of the problem into the website to confirm the solution and join the community of problem solvers.
 
 # Motivation
