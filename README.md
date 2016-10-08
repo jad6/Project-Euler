@@ -17,7 +17,7 @@ This book is simply a way to relay the awesome problems that the website has ava
 
 I learnt programming by messing with these problems at university and every time I want to learn a new language I do some of these problems again to get a hang of it.
 
-With the introduction of Swift Playground Books Project Euler is a perfect resource to bring to new and seasoned programmers to allow them to learn Swift.
+With the introduction of Swift Playground Books, Project Euler is a perfect resource to bring to new and seasoned programmers to allow them to learn Swift.
 
 [Everyone Can Code](http://www.apple.com/education/everyone-can-code/)!
 
@@ -25,7 +25,7 @@ With the introduction of Swift Playground Books Project Euler is a perfect resou
 
 I am planning on adding problems slowly over the next few weeks and hopefully have a complete book soon.
 
-Anyone is welcome and encourage to help by:
+Anyone is welcome and encouraged to help by:
   - Making existing problems better and more Swift Playground Book format friendly
   - Adding missing problems
   - Making the introduction HTML cutscene better
