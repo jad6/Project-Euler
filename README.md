@@ -36,3 +36,11 @@ Anyone is welcome and encourage to help by:
 
   - Currently links in `*.cutscenepage`s do not work. [radar-28684527](https://openradar.appspot.com/radar?id=4944870221283328)
   - GIFs do not work in the playground markdown so it makes some problems a little harder to understand. Links to the actual webpage are always available though. [radar-28684543](https://openradar.appspot.com/radar?id=4930526909562880)
+
+## Screenshots
+
+![shelf](.images/shelf.PNG)
+![intro](.images/intro.PNG)
+![toc](.images/toc.PNG)
+![problem](.images/problem.PNG)
+![glossary](.images/glossary.PNG)
