@@ -11,9 +11,9 @@ Each problem has its own page that you can solve using Swift. These pages are fo
 
 This book is simply a way to relay the awesome problems that the website has available and to make it accessible to a wider audience. You can then enter the result of the problem into the website to confirm the solution and join the community of problem solvers.
 
-*Note: Project Euler allows ([and even encourages](https://projecteuler.net/copyright)) for their material to be distributed and used as learning opportunities. What a cool bunch of people!*
+*Note: Project Euler allows ([and even encourages](https://projecteuler.net/copyright)) for their material to be distributed and used for learning opportunities. What a cool bunch of people!*
 
-# Motivation
+## Motivation
 
 I learnt programming by messing with these problems at university and every time I want to learn a new language I do some of these problems again to get a hang of it.
 
@@ -21,7 +21,7 @@ With the introduction of Swift Playground Books Project Euler is a perfect resou
 
 [Everyone Can Code](http://www.apple.com/education/everyone-can-code/)!
 
-# Contribute
+## Contribute
 
 I am planning on adding problems slowly over the next few weeks and hopefully have a complete book soon.
 
@@ -32,7 +32,7 @@ Anyone is welcome and encourage to help by:
   - Adding more terms to the glossary
   - Anything else you think would make this project that much sweeter!
 
-# Known Limitations
+## Current Limitations
 
-  - Currently links in `*.cutscenepage`s do not work so that is kind of sad :(.
-  - GIFs do not work in the playground markdown so it makes some problems a little harder to understand. Links to the actual webpage are always available though.
+  - Currently links in `*.cutscenepage`s do not work. [radar-28684527](https://openradar.appspot.com/radar?id=4944870221283328)
+  - GIFs do not work in the playground markdown so it makes some problems a little harder to understand. Links to the actual webpage are always available though. [radar-28684543](https://openradar.appspot.com/radar?id=4930526909562880)
