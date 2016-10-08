@@ -7,11 +7,11 @@
 		<key>evenly divisible</key>
 		<dict>
 			<key>Definition</key>
-			<string>Evenly divisible would mean that the number is divisible by any number completely. To answer your question, the correct answer is 20! (20 factorial)</string>
+			<string>Evenly divisible would mean that the number is divisible by any number completely.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
-				<string>Beginer%20Problems/5%20-%20Smallest%20multiple</string>
+				<string>Beginner%20Problems/5%20-%20Smallest%20multiple</string>
 				<key>Title</key>
 				<string>Smallest multiple</string>
 			</dict>
@@ -19,7 +19,7 @@
 		<key>unary minus</key>
 		<dict>
 			<key>Definition</key>
-			<string>Here, in -5, the minus sign is unary operator and it requires one operand which is 5 here. The minus sign between 5 and 6 is binary operator which requires two operands(-5 and 6 here). The minus sign in -11 is also unary operator.</string>
+			<string>In -5, the minus sign is unary operator and it requires one operand which is 5 here. The minus sign between 5 and 6 in &quot;6 - 5&quot;, is binary operator which requires two operands (-5 and 6 here). The minus sign in -11 is also unary operator.</string>
 			<key>FirstUse</key>
 			<dict>
 				<key>PageReference</key>
