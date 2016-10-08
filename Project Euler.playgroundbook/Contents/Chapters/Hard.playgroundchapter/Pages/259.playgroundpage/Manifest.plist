@@ -5,6 +5,10 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Introduction</string>
+	<string>259 - Reachable Numbers</string>
+	<key>LiveViewMode</key>
+	<string>HiddenByDefault</string>
+	<key>LiveViewEdgeToEdge</key>
+	<false/>
 </dict>
 </plist>

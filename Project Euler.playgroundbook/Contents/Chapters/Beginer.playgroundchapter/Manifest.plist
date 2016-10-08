@@ -4,8 +4,10 @@
 <dict>
 	<key>Version</key>
 	<string>1.0</string>
+	<key>DeploymentTarget</key>
+	<string>ios10.0</string>
 	<key>Name</key>
-	<string>Files</string>
+	<string>Beginer Problems</string>
 	<key>Pages</key>
 	<array>
 		<string>1.playgroundpage</string>

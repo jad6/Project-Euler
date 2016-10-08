@@ -7,10 +7,10 @@
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>Name</key>
-	<string>Introduction</string>
+	<string>Hard Problems</string>
 	<key>Pages</key>
 	<array>
-		<string>About.cutscenepage</string>
+		<string>259.playgroundpage</string>
 	</array>
 </dict>
 </plist>
