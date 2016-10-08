@@ -4,13 +4,11 @@
 <dict>
 	<key>Version</key>
 	<string>1.0</string>
-	<key>DeploymentTarget</key>
-	<string>ios10.0</string>
 	<key>Name</key>
-	<string>Expert Problems</string>
-	<key>Pages</key>
-	<array>
-		<string>541.playgroundpage</string>
-	</array>
+	<string>7 - 10001st prime</string>
+	<key>LiveViewMode</key>
+	<string>HiddenByDefault</string>
+	<key>LiveViewEdgeToEdge</key>
+	<false/>
 </dict>
 </plist>

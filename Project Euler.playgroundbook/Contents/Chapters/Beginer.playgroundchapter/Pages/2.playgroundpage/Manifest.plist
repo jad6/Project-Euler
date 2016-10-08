@@ -5,7 +5,7 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>1 - Multiples of 3 and 5</string>
+	<string>2 - Even Fibonacci numbers</string>
 	<key>LiveViewMode</key>
 	<string>HiddenByDefault</string>
 	<key>LiveViewEdgeToEdge</key>

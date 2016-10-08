@@ -7,10 +7,19 @@
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>Name</key>
-	<string>Beginer Problems</string>
+	<string>Beginner Problems</string>
 	<key>Pages</key>
 	<array>
 		<string>1.playgroundpage</string>
+		<string>2.playgroundpage</string>
+		<string>3.playgroundpage</string>
+		<string>4.playgroundpage</string>
+		<string>5.playgroundpage</string>
+		<string>6.playgroundpage</string>
+		<string>7.playgroundpage</string>
+		<string>8.playgroundpage</string>
+		<string>9.playgroundpage</string>
+		<string>10.playgroundpage</string>
 	</array>
 </dict>
 </plist>

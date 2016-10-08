@@ -17,7 +17,7 @@
 	<key>Chapters</key>
 	<array>
 		<string>Introduction.playgroundchapter</string>
-		<string>Beginer.playgroundchapter</string>
+		<string>Beginner.playgroundchapter</string>
 		<string>Intermediate.playgroundchapter</string>
 		<string>Hard.playgroundchapter</string>
 		<string>Expert.playgroundchapter</string>
