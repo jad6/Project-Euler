@@ -11,15 +11,16 @@
 	<key>ContentVersion</key>
 	<string>1</string>
 	<key>ImageReference</key>
-	<string>Icon.png</string>
+	<string>icon.png</string>
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>Chapters</key>
 	<array>
-    <string>Introduction.playgroundchapter</string>
+		<string>Introduction.playgroundchapter</string>
 		<string>Beginer.playgroundchapter</string>
-    <string>Intermediate.playgroundchapter</string>
-    <string>Expert.playgroundchapter</string>
+		<string>Intermediate.playgroundchapter</string>
+		<string>Hard.playgroundchapter</string>
+		<string>Expert.playgroundchapter</string>
 	</array>
 </dict>
 </plist>

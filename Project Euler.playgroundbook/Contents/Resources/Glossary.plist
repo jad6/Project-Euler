@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>unary minus</key>
+		<dict>
+			<key>Definition</key>
+			<string>In mathematics, the additive inverse of a number a is the number that, when added to a, yields zero. This number is also known as the opposite (number), sign change, and negation. For a real number, it reverses its sign: the opposite to a positive number is negative, and the opposite to a negative number is positive. Zero is the additive inverse of itself.
+
+The additive inverse of a is denoted by unary minus: −a (see the discussion below). For example, the additive inverse of 7 is −7, because 7 + (−7) = 0, and the additive inverse of −0.3 is 0.3, because −0.3 + 0.3 = 0 .</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Intermediate%20Problems/259%20-%20Reachable%20Numbers</string>
+				<key>Title</key>
+				<string>Reachable Numbers</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
