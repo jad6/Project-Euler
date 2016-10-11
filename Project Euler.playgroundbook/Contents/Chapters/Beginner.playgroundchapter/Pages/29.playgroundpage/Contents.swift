@@ -4,7 +4,7 @@
 
  Consider all integer combinations of a^b for 2 ≤ a ≤ 5 and 2 ≤ b ≤ 5:
 
- ![](8-1.png)
+ ![](29-1.png)
 
  If they are then placed in numerical order, with any repeats removed, we get the following sequence of 15 distinct terms:
 
