@@ -7,6 +7,7 @@
  F(n) = F(n−1) + F(n−2), where F(1) = 1 and F(2) = 1.
  Hence the first 12 terms will be:
 
+ ```
  F(1) = 1
  F)2) = 1
  F(3) = 2
@@ -19,6 +20,7 @@
  F(10) = 55
  F(11) = 89
  F(12) = 144
+ ```
 
  The 12th term, F(12), is the first term to contain three digits.
 
