@@ -17,14 +17,10 @@
  *NOTE: The contents of `words.txt` are stored in: `var words: [String] { get }`*
  */
 //#-hidden-code
-import Foundation
-
 var _words: [String]?
 var words: [String] {
-  if _words == nil {
-    // Pull the contents form the file. Not much we can do with error handling in Swift Playground Books.
-    let fileURL = Bundle.main.url(forResource: "42-2", withExtension: "txt")
-    var contents = try! String(contentsOf: fileURL!, encoding: String.Encoding.utf8)
+  if _names == nil {
+    var contents = parseTextFile(named: "42-1")
     // Remove the first and last characters; they are the extra '"' chars.
     contents.remove(at: contents.startIndex)
     contents.remove(at: contents.index(before: contents.endIndex))
