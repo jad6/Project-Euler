@@ -1,13 +1,8 @@
 /*:
- # Consecutive prime sum
- [Problem 50](https://projecteuler.net/problem=50) - Diifculty level: 5%
+ # Prime pair sets
+ [Problem 60](https://projecteuler.net/problem=60) - Diifculty level: 20%
 
- The prime 41, can be written as the sum of six consecutive primes:
+ The primes 3, 7, 109, and 673, are quite remarkable. By taking any two primes and concatenating them in any order the result will always be prime. For example, taking 7 and 109, both 7109 and 1097 are prime. The sum of these four primes, 792, represents the lowest sum for a set of four primes with this property.
 
- 41 = 2 + 3 + 5 + 7 + 11 + 13
- This is the longest sum of consecutive primes that adds to a prime below one-hundred.
-
- The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
-
- Which prime, below one-million, can be written as the sum of the most consecutive primes?
+ Find the lowest sum for a set of five primes for which any two primes concatenate to produce another prime.
  */

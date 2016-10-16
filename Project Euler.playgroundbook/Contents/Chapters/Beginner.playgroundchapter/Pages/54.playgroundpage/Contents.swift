@@ -158,7 +158,7 @@ var hands: [(player1: [Card], player2: [Card])] {
     _hands = [(player1: [Card], player2: [Card])]()
 
     let deals = contents.components(separatedBy: "\n")
-    for i in 0..<deals.count {
+    for i in 0..<1000 {
       _hands?.append((player1: [Card](), player2: [Card]()))
 
       let cards = deals[i].components(separatedBy: " ")

@@ -11,4 +11,20 @@
  Unfortunately, this method is impractical for most users, so the modified method is to use a password as a key. If the password is shorter than the message, which is likely, the key is repeated cyclically throughout the message. The balance for this method is using a sufficiently long password key for security, but short enough to be memorable.
 
  Your task has been made easy, as the encryption key consists of three lower case characters. Using cipher.txt (parsed in the Swift Playground), a file containing the encrypted ASCII codes, and the knowledge that the plain text must contain common English words, decrypt the message and find the sum of the ASCII values in the original text.
+ 
+ *NOTE: The contents of `cipher.txt` are stored in: `var codes: [UInt8] { get }`*
  */
+//#-hidden-code
+var _codes: [UInt8]?
+var codes: [UInt8] {
+  if _codes == nil {
+    var contents = parseTextFile(named: "59-1")
+    // Remvoe trailing new line
+    contents.remove(at: contents.index(before: contents.endIndex))
+
+    _codes = contents.components(separatedBy: ",").map({ UInt8($0)! })
+  }
+  return _codes!
+}
+//#-end-hidden-code
+//#-code-completion(identifier, hide, _codes)
