@@ -10,8 +10,6 @@
 
  *NOTE: The contents of `names.txt` are stored in: `var names: [String] { get }`*
  */
-import Foundation
-
 //#-hidden-code
 var _names: [String]?
 var names: [String] {

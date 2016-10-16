@@ -36,14 +36,14 @@
    case jack, queen, king
 
    /// The value that was parsed from the text file e.g. "A" for `.ace`
-   var string: String { get }
+   var stringValue: String { get }
  }
 
  enum Suit {
    case spades, hearts, diamonds, clubs
 
    /// The value that was parsed from the text file e.g. "S" for `.spades`
-   var string: String { get }
+   var stringValue: String { get }
  }
 
  struct Card {
@@ -51,21 +51,21 @@
    var suit: Suit { get }
 
    /// The value that was parsed from the text file e.g. "AS" for `.ace` of `.spades`
-   var string: String { get }
+   var stringValue: String { get }
 
    init(rank: Rank, suit: Suit)
+ 
+   init?(_ string: String)
  }
  ```
  */
 //#-hidden-code
-import Foundation
-
 enum Rank: UInt8 {
   case ace = 1
   case two, three, four, five, six, seven, eight, nine, ten
   case jack, queen, king
 
-  var string: String {
+  var stringValue: String {
     switch self {
     case .ace:
       return "A"
@@ -86,7 +86,7 @@ enum Rank: UInt8 {
 enum Suit {
   case spades, hearts, diamonds, clubs
 
-  var string: String {
+  var stringValue: String {
     switch self {
     case .spades:
       return "S"
@@ -104,8 +104,8 @@ struct Card {
   let rank: Rank
   let suit: Suit
 
-  var string: String {
-    return rank.string + suit.string
+  var stringValue: String {
+    return rank.stringValue + suit.stringValue
   }
 
   init(rank: Rank, suit: Suit) {
@@ -113,32 +113,39 @@ struct Card {
     self.suit = suit
   }
 
-  init(utf8CodeUnits: (rankUnit: UTF8.CodeUnit, suitUnit: UTF8.CodeUnit)) {
-    switch utf8CodeUnits.rankUnit {
-    case 50...57:
-      // 2 - 9 (10 is refered to as T)
-      self.rank = Rank(rawValue: utf8CodeUnits.rankUnit - 48)!
-    case 84:
-      self.rank = .ten
-    case 75:
-      self.rank = .king
-    case 81:
-      self.rank = .queen
-    case 74:
-      self.rank = .jack
-    default:
-      self.rank = .ace
+  init?(_ string: String) {
+    guard string.characters.count == 2 else {
+      return nil
     }
 
-    switch utf8CodeUnits.suitUnit {
-    case 72:
-      self.suit = .hearts
-    case 68:
-      self.suit = .diamonds
-    case 67:
-      self.suit = .clubs
+    switch string.characters.first! {
+    case "2", "3", "4", "5", "6", "7", "8", "9":
+      self.rank = Rank(rawValue: UInt8(String(string.characters.first!))!)!
+    case "T":
+      self.rank = .ten
+    case "K":
+      self.rank = .king
+    case "Q":
+      self.rank = .queen
+    case "J":
+      self.rank = .jack
+    case "A":
+      self.rank = .ace
     default:
+      return nil
+    }
+
+    switch string.characters.last! {
+    case "H":
+      self.suit = .hearts
+    case "D":
+      self.suit = .diamonds
+    case "C":
+      self.suit = .clubs
+    case "S":
       self.suit = .spades
+    default:
+      return nil
     }
   }
 }
@@ -146,64 +153,23 @@ struct Card {
 var _hands: [(player1: [Card], player2: [Card])]?
 var hands: [(player1: [Card], player2: [Card])] {
   if _hands == nil {
-    /**
-     Which player to deal the card to.
-     */
-    enum HandDestination { case player1, player2 }
-
-    let contents = parseTextFile(named: "54-2").utf8
+    let contents = parseTextFile(named: "54-2")
 
     _hands = [(player1: [Card], player2: [Card])]()
 
-    // Set up initial variables
-    var handDealtTo = HandDestination.player1
-    var lineNumber = 0
-    var i = contents.startIndex
+    let deals = contents.components(separatedBy: "\n")
+    for i in 0..<deals.count {
+      _hands?.append((player1: [Card](), player2: [Card]()))
 
-    repeat {
-      defer {
-        i = contents.index(after: i)
+      let cards = deals[i].components(separatedBy: " ")
+      for j in 0..<cards.count {
+        if j < 5 {
+          _hands![i].player1.append(Card(cards[j])!)
+        } else {
+          _hands![i].player2.append(Card(cards[j])!)
+        }
       }
-
-      // Make sure we have a container to store data.
-      if _hands!.count == lineNumber {
-        let tuple = (player1: [Card](), player2: [Card]())
-        _hands?.append(tuple)
-      }
-
-      // Get the current UTF8 code unit.
-      let codeUnit = contents[i]
-
-      // 32 is the SPACE character, keep going as there is nothing to do here.
-      guard codeUnit != 32 else {
-        continue
-      }
-
-      // If we have already dealt the first five cards to the first
-      // player switch to player 2.
-      if _hands![lineNumber].player1.count == 5 {
-        handDealtTo = .player2
-      }
-
-      // 10 is LINE FEED or "\n", incease the line number and switch back to dealing to player 1
-      if codeUnit == 10 {
-        lineNumber += 1
-        handDealtTo = .player1
-        continue
-      }
-
-      // We have a card, let's build it. The rank is already stored in the `codeUnit` but we
-      // need to advance 1 to get to the suit.
-      i = contents.index(after: i)
-      let card = Card(utf8CodeUnits: (rankUnit: codeUnit, suitUnit: contents[i]))
-      // Actually deal the hand
-      switch handDealtTo {
-      case .player1:
-        _hands![lineNumber].player1.append(card)
-      case .player2:
-        _hands![lineNumber].player2.append(card)
-      }
-    } while i != contents.endIndex
+    }
   }
   return _hands!
 }
