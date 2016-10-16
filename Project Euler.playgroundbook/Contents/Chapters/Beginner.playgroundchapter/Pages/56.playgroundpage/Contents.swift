@@ -1,13 +1,8 @@
 /*:
- # Consecutive prime sum
- [Problem 50](https://projecteuler.net/problem=50) - Diifculty level: 5%
+ # Powerful digit sum
+ [Problem 56](https://projecteuler.net/problem=55) - Diifculty level: 5%
 
- The prime 41, can be written as the sum of six consecutive primes:
+ A googol (10^100) is a massive number: one followed by one-hundred zeros; 100^100 is almost unimaginably large: one followed by two-hundred zeros. Despite their size, the sum of the digits in each number is only 1.
 
- 41 = 2 + 3 + 5 + 7 + 11 + 13
- This is the longest sum of consecutive primes that adds to a prime below one-hundred.
-
- The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
-
- Which prime, below one-million, can be written as the sum of the most consecutive primes?
+ Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum digital sum?
  */

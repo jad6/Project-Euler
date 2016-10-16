@@ -2,12 +2,11 @@
  # Consecutive prime sum
  [Problem 50](https://projecteuler.net/problem=50) - Diifculty level: 5%
 
- The prime 41, can be written as the sum of six consecutive primes:
+ Starting with 1 and spiralling anticlockwise in the following way, a square spiral with side length 7 is formed.
 
- 41 = 2 + 3 + 5 + 7 + 11 + 13
- This is the longest sum of consecutive primes that adds to a prime below one-hundred.
+ ![](58-1.png)
 
- The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
+ It is interesting to note that the odd squares lie along the bottom right diagonal, but what is more interesting is that 8 out of the 13 numbers lying along both diagonals are prime; that is, a ratio of 8/13 ≈ 62%.
 
- Which prime, below one-million, can be written as the sum of the most consecutive primes?
+ If one complete new layer is wrapped around the spiral above, a square spiral with side length 9 will be formed. If this process is continued, what is the side length of the square spiral for which the ratio of primes along both diagonals first falls below 10%?
  */

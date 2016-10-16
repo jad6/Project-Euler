@@ -5,7 +5,7 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>50 - Consecutive prime sum</string>
+	<string>56 - Powerful digit sum</string>
 	<key>LiveViewMode</key>
 	<string>HiddenByDefault</string>
 	<key>LiveViewEdgeToEdge</key>

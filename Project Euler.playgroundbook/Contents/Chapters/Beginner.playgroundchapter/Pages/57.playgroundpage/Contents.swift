@@ -1,13 +1,19 @@
 /*:
- # Consecutive prime sum
- [Problem 50](https://projecteuler.net/problem=50) - Diifculty level: 5%
+ # Square root convergents
+ [Problem 57](https://projecteuler.net/problem=57) - Diifculty level: 5%
 
- The prime 41, can be written as the sum of six consecutive primes:
+ It is possible to show that the square root of two can be expressed as an infinite continued fraction.
 
- 41 = 2 + 3 + 5 + 7 + 11 + 13
- This is the longest sum of consecutive primes that adds to a prime below one-hundred.
+ √ 2 = 1 + 1/(2 + 1/(2 + 1/(2 + ... ))) = 1.414213...
 
- The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
+ By expanding this for the first four iterations, we get:
 
- Which prime, below one-million, can be written as the sum of the most consecutive primes?
+ 1 + 1/2 = 3/2 = 1.5
+ 1 + 1/(2 + 1/2) = 7/5 = 1.4
+ 1 + 1/(2 + 1/(2 + 1/2)) = 17/12 = 1.41666...
+ 1 + 1/(2 + 1/(2 + 1/(2 + 1/2))) = 41/29 = 1.41379...
+
+ The next three expansions are 99/70, 239/169, and 577/408, but the eighth expansion, 1393/985, is the first example where the number of digits in the numerator exceeds the number of digits in the denominator.
+
+ In the first one-thousand expansions, how many fractions contain a numerator with more digits than denominator?
  */

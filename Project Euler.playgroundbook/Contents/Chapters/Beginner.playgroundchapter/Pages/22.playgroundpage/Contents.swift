@@ -10,15 +10,13 @@
 
  *NOTE: The contents of `names.txt` are stored in: `var names: [String] { get }`*
  */
-//#-hidden-code
 import Foundation
 
+//#-hidden-code
 var _names: [String]?
 var names: [String] {
   if _names == nil {
-    // Pull the contents form the file. Not much we can do with error handling in Swift Playground Books.
-    let fileURL = Bundle.main.url(forResource: "22-1", withExtension: "txt")
-    var contents = try! String(contentsOf: fileURL!, encoding: String.Encoding.utf8)
+    var contents = parseTextFile(named: "22-1")
     // Remove the first and last characters; they are the extra '"' chars.
     contents.remove(at: contents.startIndex)
     contents.remove(at: contents.index(before: contents.endIndex))
