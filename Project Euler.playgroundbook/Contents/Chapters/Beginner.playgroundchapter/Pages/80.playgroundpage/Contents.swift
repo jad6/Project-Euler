@@ -1,11 +1,10 @@
 /*:
- # Totient permutation
- [Problem 70](https://projecteuler.net/problem=70) - Diifculty level: 20%
+ # Square root digital expansion
+ [Problem 80](https://projecteuler.net/problem=80) - Diifculty level: 20%
 
- Euler's Totient function, φ(n) [sometimes called the phi function], is used to determine the number of positive numbers less than or equal to n which are relatively prime to n. For example, as 1, 2, 4, 5, 7, and 8, are all less than nine and relatively prime to nine, φ(9)=6.
- The number 1 is considered to be relatively prime to every positive number, so φ(1)=1.
+ It is well known that if the square root of a natural number is not an integer, then it is irrational. The decimal expansion of such square roots is infinite without any repeating pattern at all.
 
- Interestingly, φ(87109)=79180, and it can be seen that 87109 is a permutation of 79180.
+ The square root of two is 1.41421356237309504880..., and the digital sum of the first one hundred decimal digits is 475.
 
- Find the value of n, 1 < n < 10^7, for which φ(n) is a permutation of n and the ratio n/φ(n) produces a minimum.
+ For the first one hundred natural numbers, find the total of the digital sums of the first one hundred decimal digits for all the irrational square roots.
  */
