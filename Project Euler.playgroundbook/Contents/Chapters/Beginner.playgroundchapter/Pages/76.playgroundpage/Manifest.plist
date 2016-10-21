@@ -4,14 +4,11 @@
 <dict>
 	<key>Version</key>
 	<string>1.0</string>
-	<key>DeploymentTarget</key>
-	<string>ios10.0</string>
 	<key>Name</key>
-	<string>Intermediate Problems</string>
-	<key>Pages</key>
-	<array>
-		<string>78.playgroundpage</string>
-		<string>405.playgroundpage</string>
-	</array>
+	<string>76 - Counting summations</string>
+	<key>LiveViewMode</key>
+	<string>HiddenByDefault</string>
+	<key>LiveViewEdgeToEdge</key>
+	<false/>
 </dict>
 </plist>
