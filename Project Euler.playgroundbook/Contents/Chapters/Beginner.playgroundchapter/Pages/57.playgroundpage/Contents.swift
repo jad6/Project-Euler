@@ -1,6 +1,6 @@
 /*:
  # Square root convergents
- [Problem 57](https://projecteuler.net/problem=57) - Diifculty level: 5%
+ [Problem 57](https://projecteuler.net/problem=57) - Difficulty level: 5%
 
  It is possible to show that the square root of two can be expressed as an infinite continued fraction.
 

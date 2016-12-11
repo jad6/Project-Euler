@@ -1,6 +1,6 @@
 /*:
  # Factorial digit sum
- [Problem 20](https://projecteuler.net/problem=20) - Diifculty level: 5%
+ [Problem 20](https://projecteuler.net/problem=20) - Difficulty level: 5%
 
  n! means n × (n − 1) × ... × 3 × 2 × 1
 

@@ -1,6 +1,6 @@
 /*:
  # Integer right triangles
- [Problem 39](https://projecteuler.net/problem=39) - Diifculty level: 5%
+ [Problem 39](https://projecteuler.net/problem=39) - Difficulty level: 5%
 
  If p is the perimeter of a right angle triangle with integral length sides, {a,b,c}, there are exactly three solutions for p = 120.
 

@@ -1,6 +1,6 @@
 /*:
  # Digit cancelling fractions
- [Problem 33](https://projecteuler.net/problem=33) - Diifculty level: 5%
+ [Problem 33](https://projecteuler.net/problem=33) - Difficulty level: 5%
 
  The fraction 49/98 is a curious fraction, as an inexperienced mathematician in attempting to simplify it may incorrectly believe that 49/98 = 4/8, which is correct, is obtained by cancelling the 9s.
 

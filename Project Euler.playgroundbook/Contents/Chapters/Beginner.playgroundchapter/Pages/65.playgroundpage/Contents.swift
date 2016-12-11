@@ -1,6 +1,6 @@
 /*:
  # Convergents of e
- [Problem 65](https://projecteuler.net/problem=65) - Diifculty level: 15%
+ [Problem 65](https://projecteuler.net/problem=65) - Difficulty level: 15%
 
  The square root of 2 can be written as an infinite continued fraction.
 

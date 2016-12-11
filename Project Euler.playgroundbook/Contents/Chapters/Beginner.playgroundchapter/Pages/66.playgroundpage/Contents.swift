@@ -1,6 +1,6 @@
 /*:
  # Diophantine equation
- [Problem 66](https://projecteuler.net/problem=66) - Diifculty level: 25%
+ [Problem 66](https://projecteuler.net/problem=66) - Difficulty level: 25%
 
  Consider quadratic Diophantine equations of the form:
 

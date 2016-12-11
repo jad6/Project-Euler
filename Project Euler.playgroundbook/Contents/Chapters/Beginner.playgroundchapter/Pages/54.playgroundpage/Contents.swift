@@ -1,6 +1,6 @@
 /*:
  # Poker hands
- [Problem 54](https://projecteuler.net/problem=54) - Diifculty level: 10%
+ [Problem 54](https://projecteuler.net/problem=54) - Difficulty level: 10%
 
  In the card game poker, a hand consists of five cards and are ranked, from lowest to highest, in the following way:
 

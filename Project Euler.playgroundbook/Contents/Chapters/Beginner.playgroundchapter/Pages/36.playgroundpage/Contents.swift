@@ -1,6 +1,6 @@
 /*:
  # Double-base palindromes
- [Problem 36](https://projecteuler.net/problem=36) - Diifculty level: 5%
+ [Problem 36](https://projecteuler.net/problem=36) - Difficulty level: 5%
 
  The decimal number, 585 = 1001001001 (binary), is palindromic in both bases.
 

@@ -1,6 +1,6 @@
 /*:
  # Champernowne's constant
- [Problem 40](https://projecteuler.net/problem=40) - Diifculty level: 5%
+ [Problem 40](https://projecteuler.net/problem=40) - Difficulty level: 5%
 
  An irrational decimal fraction is created by concatenating the positive integers:
 

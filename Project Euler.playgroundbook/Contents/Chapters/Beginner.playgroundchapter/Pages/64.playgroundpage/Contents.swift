@@ -1,6 +1,6 @@
 /*:
  # Odd period square roots
- [Problem 64](https://projecteuler.net/problem=64) - Diifculty level: 20%
+ [Problem 64](https://projecteuler.net/problem=64) - Difficulty level: 20%
 
  All square roots are periodic when written as continued fractions and can be written in the form:
 

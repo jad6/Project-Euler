@@ -1,6 +1,6 @@
 /*:
  # Counting fractions
- [Problem 72](https://projecteuler.net/problem=72) - Diifculty level: 20%
+ [Problem 72](https://projecteuler.net/problem=72) - Difficulty level: 20%
 
  Consider the fraction, n/d, where n and d are positive integers. If n<d and HCF(n,d)=1, it is called a reduced proper fraction.
 

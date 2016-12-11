@@ -1,6 +1,6 @@
 /*:
  # Sum square difference
- [Problem 6](https://projecteuler.net/problem=6) - Diifculty level: 5%
+ [Problem 6](https://projecteuler.net/problem=6) - Difficulty level: 5%
 
  The sum of the squares of the first ten natural numbers is,
 

@@ -1,6 +1,6 @@
 /*:
  # Square root digital expansion
- [Problem 80](https://projecteuler.net/problem=80) - Diifculty level: 20%
+ [Problem 80](https://projecteuler.net/problem=80) - Difficulty level: 20%
 
  It is well known that if the square root of a natural number is not an integer, then it is irrational. The decimal expansion of such square roots is infinite without any repeating pattern at all.
 

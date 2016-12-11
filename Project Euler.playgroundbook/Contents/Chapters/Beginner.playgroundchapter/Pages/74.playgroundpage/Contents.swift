@@ -1,6 +1,6 @@
 /*:
  # Digit factorial chains
- [Problem 74](https://projecteuler.net/problem=74) - Diifculty level: 15%
+ [Problem 74](https://projecteuler.net/problem=74) - Difficulty level: 15%
 
  The number 145 is well known for the property that the sum of the factorial of its digits is equal to 145:
 

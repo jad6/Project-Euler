@@ -1,6 +1,6 @@
 /*:
  # Quadratic primes
- [Problem 27](https://projecteuler.net/problem=27) - Diifculty level: 5%
+ [Problem 27](https://projecteuler.net/problem=27) - Difficulty level: 5%
 
  Euler discovered the remarkable quadratic formula:
 

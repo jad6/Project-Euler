@@ -1,6 +1,6 @@
 /*:
  # Summation of primes
- [Problem 25](https://projecteuler.net/problem=25) - Diifculty level: 5%
+ [Problem 25](https://projecteuler.net/problem=25) - Difficulty level: 5%
 
  The Fibonacci sequence is defined by the recurrence relation:
 

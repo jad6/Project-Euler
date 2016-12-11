@@ -1,6 +1,6 @@
 /*:
  # Spiral primes
- [Problem 58](https://projecteuler.net/problem=58) - Diifculty level: 5%
+ [Problem 58](https://projecteuler.net/problem=58) - Difficulty level: 5%
 
  Starting with 1 and spiralling anticlockwise in the following way, a square spiral with side length 7 is formed.
 

@@ -1,6 +1,6 @@
 /*:
  # Combinatoric selections
- [Problem 53](https://projecteuler.net/problem=53) - Diifculty level: 5%
+ [Problem 53](https://projecteuler.net/problem=53) - Difficulty level: 5%
 
  There are exactly ten ways of selecting three from five, 12345:
 

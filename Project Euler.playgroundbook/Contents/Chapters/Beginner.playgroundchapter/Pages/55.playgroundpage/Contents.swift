@@ -1,6 +1,6 @@
 /*:
  # Lychrel numbers
- [Problem 55](https://projecteuler.net/problem=55) - Diifculty level: 5%
+ [Problem 55](https://projecteuler.net/problem=55) - Difficulty level: 5%
 
  If we take 47, reverse and add, 47 + 74 = 121, which is palindromic.
 

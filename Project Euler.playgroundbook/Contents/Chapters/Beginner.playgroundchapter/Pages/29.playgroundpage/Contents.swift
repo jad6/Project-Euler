@@ -1,6 +1,6 @@
 /*:
  # Distinct powers
- [Problem 29](https://projecteuler.net/problem=29) - Diifculty level: 5%
+ [Problem 29](https://projecteuler.net/problem=29) - Difficulty level: 5%
 
  Consider all integer combinations of a^b for 2 ≤ a ≤ 5 and 2 ≤ b ≤ 5:
 

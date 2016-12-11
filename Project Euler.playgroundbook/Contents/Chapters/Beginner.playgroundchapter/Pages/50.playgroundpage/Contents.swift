@@ -1,6 +1,6 @@
 /*:
  # Consecutive prime sum
- [Problem 50](https://projecteuler.net/problem=50) - Diifculty level: 5%
+ [Problem 50](https://projecteuler.net/problem=50) - Difficulty level: 5%
 
  The prime 41, can be written as the sum of six consecutive primes:
 

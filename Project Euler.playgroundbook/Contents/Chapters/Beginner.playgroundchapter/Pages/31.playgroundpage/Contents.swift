@@ -1,6 +1,6 @@
 /*:
  # Coin sums
- [Problem 31](https://projecteuler.net/problem=31) - Diifculty level: 5%
+ [Problem 31](https://projecteuler.net/problem=31) - Difficulty level: 5%
 
  In England the currency is made up of pound, £, and pence, p, and there are eight coins in general circulation:
 

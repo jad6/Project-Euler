@@ -1,6 +1,6 @@
 /*:
  # Digit fifth powers
- [Problem 30](https://projecteuler.net/problem=30) - Diifculty level: 5%
+ [Problem 30](https://projecteuler.net/problem=30) - Difficulty level: 5%
 
  Surprisingly there are only three numbers that can be written as the sum of fourth powers of their digits:
 

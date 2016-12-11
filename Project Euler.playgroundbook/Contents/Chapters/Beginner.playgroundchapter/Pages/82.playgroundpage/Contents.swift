@@ -1,6 +1,6 @@
 /*:
  # Path sum: three ways
- [Problem 82](https://projecteuler.net/problem=82) - Diifculty level: 20%
+ [Problem 82](https://projecteuler.net/problem=82) - Difficulty level: 20%
 
  NOTE: This problem is a more challenging version of Problem 81.
 

@@ -1,6 +1,6 @@
 /*:
  # Distinct primes factors
- [Problem 47](https://projecteuler.net/problem=47) - Diifculty level: 5%
+ [Problem 47](https://projecteuler.net/problem=47) - Difficulty level: 5%
 
  The first two consecutive numbers to have two distinct prime factors are:
 

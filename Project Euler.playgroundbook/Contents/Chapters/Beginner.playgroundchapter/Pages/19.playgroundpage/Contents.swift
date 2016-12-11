@@ -1,6 +1,6 @@
 /*:
  # Counting Sundays
- [Problem 19](https://projecteuler.net/problem=19) - Diifculty level: 5%
+ [Problem 19](https://projecteuler.net/problem=19) - Difficulty level: 5%
 
  You are given the following information, but you may prefer to do some research for yourself.
 

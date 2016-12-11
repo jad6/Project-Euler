@@ -1,6 +1,6 @@
 /*:
  # Self powers
- [Problem 48](https://projecteuler.net/problem=48) - Diifculty level: 5%
+ [Problem 48](https://projecteuler.net/problem=48) - Difficulty level: 5%
 
  The series, 1^1 + 2^2 + 3^3 + ... + 10^10 = 10405071317.
 

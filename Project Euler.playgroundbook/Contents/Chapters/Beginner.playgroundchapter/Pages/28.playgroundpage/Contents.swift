@@ -1,6 +1,6 @@
 /*:
  # Number spiral diagonals
- [Problem 28](https://projecteuler.net/problem=28) - Diifculty level: 5%
+ [Problem 28](https://projecteuler.net/problem=28) - Difficulty level: 5%
 
  Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:
 

@@ -1,6 +1,6 @@
 /*:
  # Number letter counts
- [Problem 17](https://projecteuler.net/problem=17) - Diifculty level: 5%
+ [Problem 17](https://projecteuler.net/problem=17) - Difficulty level: 5%
 
  If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
 

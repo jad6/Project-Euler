@@ -1,6 +1,6 @@
 /*:
  # Coded triangle numbers
- [Problem 42](https://projecteuler.net/problem=42) - Diifculty level: 5%
+ [Problem 42](https://projecteuler.net/problem=42) - Difficulty level: 5%
 
  The nth term of the sequence of triangle numbers is given by, 
  

@@ -1,6 +1,6 @@
 /*:
  # Prime permutations
- [Problem 49](https://projecteuler.net/problem=49) - Diifculty level: 5%
+ [Problem 49](https://projecteuler.net/problem=49) - Difficulty level: 5%
 
  The arithmetic sequence, 1487, 4817, 8147, in which each of the terms increases by 3330, is unusual in two ways: (i) each of the three terms are prime, and, (ii) each of the 4-digit numbers are permutations of one another.
 

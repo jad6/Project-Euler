@@ -1,6 +1,6 @@
 /*:
  # Path sum: four ways
- [Problem 83](https://projecteuler.net/problem=83) - Diifculty level: 25%
+ [Problem 83](https://projecteuler.net/problem=83) - Difficulty level: 25%
 
  NOTE: This problem is a significantly more challenging version of Problem 81.
 

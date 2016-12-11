@@ -1,6 +1,6 @@
 /*:
  # Permuted multiples
- [Problem 52](https://projecteuler.net/problem=52) - Diifculty level: 5%
+ [Problem 52](https://projecteuler.net/problem=52) - Difficulty level: 5%
 
  It can be seen that the number, 125874, and its double, 251748, contain exactly the same digits, but in a different order.
 

@@ -1,6 +1,6 @@
 /*:
  # Magic 5-gon ring
- [Problem 68](https://projecteuler.net/problem=68) - Diifculty level: 25%
+ [Problem 68](https://projecteuler.net/problem=68) - Difficulty level: 25%
 
  Consider the following "magic" 3-gon ring, filled with the numbers 1 to 6, and each line adding to nine.
 

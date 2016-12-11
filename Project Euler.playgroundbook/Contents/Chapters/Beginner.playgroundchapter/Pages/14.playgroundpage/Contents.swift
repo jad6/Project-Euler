@@ -1,6 +1,6 @@
 /*:
  # Longest Collatz sequence
- [Problem 14](https://projecteuler.net/problem=14) - Diifculty level: 5%
+ [Problem 14](https://projecteuler.net/problem=14) - Difficulty level: 5%
 
  The following iterative sequence is defined for the set of positive integers:
 

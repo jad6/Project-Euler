@@ -1,6 +1,6 @@
 /*:
  # Special Pythagorean triplet
- [Problem 9](https://projecteuler.net/problem=9) - Diifculty level: 5%
+ [Problem 9](https://projecteuler.net/problem=9) - Difficulty level: 5%
 
  A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 

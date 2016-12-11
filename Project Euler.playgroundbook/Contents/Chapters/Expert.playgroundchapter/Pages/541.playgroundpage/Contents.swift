@@ -1,6 +1,6 @@
 /*:
  # Divisibility of Harmonic Number Denominators
- [Problem 541](https://projecteuler.net/problem=541) - Diifculty level: 85%
+ [Problem 541](https://projecteuler.net/problem=541) - Difficulty level: 85%
 
  The nth harmonic number H*n* is defined as the sum of the multiplicative inverses of the first *n* positive integers, and can be written as a reduced fraction a*n* / b*n*.
 

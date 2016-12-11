@@ -1,6 +1,6 @@
 /*:
  # Names scores
- [Problem 22](https://projecteuler.net/problem=22) - Diifculty level: 5%
+ [Problem 22](https://projecteuler.net/problem=22) - Difficulty level: 5%
 
  Using `names.txt` (parsed in the Swift Playground), a 46K text file containing over five-thousand first names, begin by sorting it into alphabetical order. Then working out the alphabetical value for each name, multiply this value by its alphabetical position in the list to obtain a name score.
 

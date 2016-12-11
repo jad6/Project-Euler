@@ -1,6 +1,6 @@
 /*:
  # Pandigital multiples
- [Problem 38](https://projecteuler.net/problem=38) - Diifculty level: 5%
+ [Problem 38](https://projecteuler.net/problem=38) - Difficulty level: 5%
 
  Take the number 192 and multiply it by each of 1, 2, and 3:
 

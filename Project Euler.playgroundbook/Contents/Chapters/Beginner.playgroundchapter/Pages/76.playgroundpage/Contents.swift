@@ -1,6 +1,6 @@
 /*:
  # Counting summations
- [Problem 76](https://projecteuler.net/problem=76) - Diifculty level: 10%
+ [Problem 76](https://projecteuler.net/problem=76) - Difficulty level: 10%
 
  It is possible to write five as a sum in exactly six different ways:
 

@@ -1,6 +1,6 @@
 /*:
  # Largest product in a grid
- [Problem 11](https://projecteuler.net/problem=11) - Diifculty level: 5%
+ [Problem 11](https://projecteuler.net/problem=11) - Difficulty level: 5%
 
  In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
 
