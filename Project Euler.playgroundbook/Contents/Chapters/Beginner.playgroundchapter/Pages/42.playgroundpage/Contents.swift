@@ -2,7 +2,7 @@
  # Coded triangle numbers
  [Problem 42](https://projecteuler.net/problem=42) - Difficulty level: 5%
 
- The nth term of the sequence of triangle numbers is given by, 
+ The nth term of the sequence of triangle numbers is given by,
  
  ![42](42-1.png)
 
@@ -12,22 +12,14 @@
 
  By converting each letter in a word to a number corresponding to its alphabetical position and adding these values we form a word value. For example, the word value for SKY is 19 + 11 + 25 = 55 = t(10). If the word value is a triangle number then we shall call the word a triangle word.
 
- Using `words.txt` (parsed in the Swift Playground), a 16K text file containing nearly two-thousand common English words, how many are triangle words?
+ Using `words.txt`, a 16K text file containing nearly two-thousand common English words, how many are triangle words?
  
  *NOTE: The contents of `words.txt` are stored in: `var words: [String] { get }`*
  */
 //#-hidden-code
-var _words: [String]?
-var words: [String] {
-  if _names == nil {
-    var contents = parseTextFile(named: "42-1")
-    // Remove the first and last characters; they are the extra '"' chars.
-    contents.remove(at: contents.startIndex)
-    contents.remove(at: contents.index(before: contents.endIndex))
-    // Cache the array.
-    _words = contents.components(separatedBy: "\",\"")
-  }
-  return _words!
-}
+var words: [String] = {
+	var contents = parseTextFile(named: "42-2")
+	contents = contents.replacingOccurrences(of: "\"", with: "")
+	return contents.components(separatedBy: ",")
+}()
 //#-end-hidden-code
-//#-code-completion(identifier, hide, _words)
